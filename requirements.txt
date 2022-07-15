@@ -1,2 +1,9 @@
 numpy
+scipy
+pandas
+parse
+scikit-learn
+scikit-image
 Pillow
+pyTelegramBotAPI
+pyttsx3

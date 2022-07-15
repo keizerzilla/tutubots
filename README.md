@@ -1,5 +1,12 @@
-# cellular_automaton
-Implementação de um autômato celular até que bastante configurável (documentação faltando, preguiça hoje).
+# tutubots
+
+Aqui eu guardo os códigos dos meus bots. A maioria deles serve como brincadeira que eu uso pra aprender um algoritmo novo. Em termos de hospedagem, eu uso uma Raspberry Pi rodando Raspbian mesmo, nada muito sofisticado.
+
+## Dependências
+
+```
+pip3 install -r requirements.txt
+```
 
 ## Licença
 
@@ -12,3 +19,4 @@ Este repositório (seu código-fonte e quaisquer outros elementos que o constitu
 2. Versões distintas do conteúdo deste repositório, em especial de código-fonte, devem ser marcadas explicitamente como tais, e não devem ser apontadas como sendo as originais.
 
 3. Esta licença não deve ser removida ou alterada em nenhuma redistribuição deste repositório.
+

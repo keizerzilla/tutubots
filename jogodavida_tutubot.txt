@@ -1,0 +1,18 @@
+Olá, eu sou o Jogo da Vida TutuBot.
+
+O Jogo da Vida é um autômato celular, um modelo matemático simples que imita um comportamento natural. Eu sou capaz de executar qualquer configuração válida de um Jogo da Vida. O resultado é enviado de volta pra você na forma de uma imagem.
+
+Você pode me ativar escrevendo:
+geradorvida <regra_formato_bs> <num_iteracoes>
+
+Exemplo:
+geradorvida b45s123 6
+
+regra_formato_bs é uma string no formato BS que define a regra do meu comportamento. num_iteracoes é a quantidade de vezes que eu vou rodar para gerar o resultado (min 1, max 8). Um comando deve conter todos e somente esses parâmetros.
+
+Eu funciono gerando um matriz aleatória de células "vivas" e "mortas" e em cima dessa inicialização aleatória eu executo a regra escolhida. Você pode saber mais sobre regras procurando por "rulestring BS game of life" no Google.
+
+Eu também tenho dois comandos geradores pré-determinados:
+
+/caverna: regra b5678s45678
+/labirinto: regra b3s12345
